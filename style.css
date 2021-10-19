@@ -1,0 +1,10 @@
+body {
+    background: #f06;
+    background: linear-gradient(45deg, #f06, yellow);
+    min-height: 256px;
+}
+h1 {
+    color: black;
+    margin-left: 50%;
+	margin-top: 10%;
+}
