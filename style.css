@@ -1,1 +1,72 @@
+html {background-color: #191919;}
+p {color: #097786;}
 
+/*sections*/
+#top {
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: url(https://f4.bcbits.com/img/a3216786508_1.jpg);
+	background-size: 25%;
+	height: 16vh;
+	display: table;
+	width: 100%
+}
+
+#middle {
+	position: fixed;
+	top: 16vh;
+	left: 0;
+	width: 100%;
+	height: 68vh;
+	background-color: #191919;
+	color: white;
+	font-size: 250%;
+}
+
+#bottom {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	background: #242424;
+	width: 100%
+}
+
+/*top*/
+#top p {
+	color: #62ec11;
+	text-align: center;
+	vertical-align: middle;
+	display: table-cell;
+	font-family: "Verdana";
+	font-size: 9vw;
+}
+
+/*middle*/
+
+/*bottom*/
+#tags {
+	height: 4vh;
+}
+
+#tags .mtag {
+	/*size of tag is "0.75*width/number_of_tags"*/
+	/*size of margin is "0.125*width/number_of_tags"*/
+	background-color: red;
+	width: calc(75%/4);
+	margin: calc(11%/4); /*11 instead 12.5*/
+	margin-top: 0;
+	margin-bottom: 0;
+	display: inline-table;
+}
+
+#tags .mtag p {
+	text-align: center;
+	vertical-align: middle;
+	display: table-cell;
+	background-color: #393939;
+}
+
+#releases {
+	height: 12vh;
+}
