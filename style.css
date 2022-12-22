@@ -6,7 +6,7 @@ p {color: #097786;}
 	position: fixed;
 	top: 0;
 	left: 0;
-	background: url(https://f4.bcbits.com/img/a3216786508_1.jpg);
+	background: url("https://f4.bcbits.com/img/a3216786508_1.jpg");
 	background-size: 25%;
 	height: 16vh;
 	display: table;
@@ -14,6 +14,9 @@ p {color: #097786;}
 }
 
 #middle {
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	position: fixed;
 	top: 16vh;
 	left: 0;
@@ -43,6 +46,24 @@ p {color: #097786;}
 }
 
 /*middle*/
+#album-img {
+	width: min(50vw, 50vh);
+	height: min(50vw, 50vh);
+	background-image: url("https://f4.bcbits.com/img/a1300888331_1.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+#album-txt {
+	width: 40vw;
+	margin-left: 5vh;
+	margin-right: 5vh;
+}
+
+#album-txt p {
+	font-size: 3vw;
+	font-family: Tahoma;
+}
 
 /*bottom*/
 #tags {
