@@ -1,5 +1,6 @@
 html {background-color: #191919;}
 p {color: #097786;}
+p[content*="C418"] {color: #f6364d}
 
 /*sections*/
 #top {
@@ -35,6 +36,7 @@ p {color: #097786;}
 	width: 100%
 }
 
+
 /*top*/
 #top p {
 	color: #62ec11;
@@ -45,13 +47,21 @@ p {color: #097786;}
 	font-size: 9vw;
 }
 
+
 /*middle*/
-#album-img {
+#album-g {
+	width: min(50vw, 50vh);
+	margin: 0;
+}
+
+img#album-f {
 	width: min(50vw, 50vh);
 	height: min(50vw, 50vh);
-	background-image: url("https://f4.bcbits.com/img/a1300888331_1.jpg");
-	background-size: contain;
-	background-repeat: no-repeat;
+	size: contain;
+}
+
+img#album-f:hover {
+	box-shadow: 1vh 1vh 3vw 0 rgba(7, 188, 214, 1);
 }
 
 #album-txt {
@@ -65,6 +75,7 @@ p {color: #097786;}
 	font-family: Tahoma;
 }
 
+
 /*bottom*/
 #tags {
 	height: 4vh;
@@ -74,8 +85,8 @@ p {color: #097786;}
 	/*size of tag is "0.75*width/number_of_tags"*/
 	/*size of margin is "0.125*width/number_of_tags"*/
 	background-color: red;
-	width: calc(75%/4);
-	margin: calc(11%/4); /*11 instead 12.5*/
+	width: calc(75%/5);
+	margin: calc(11%/5); /*11 instead 12.5*/
 	margin-top: 0;
 	margin-bottom: 0;
 	display: inline-table;
@@ -90,4 +101,14 @@ p {color: #097786;}
 
 #releases {
 	height: 12vh;
+	display: flex;
+	justify-content: space-between;
+}
+
+.release-icon {
+	margin: 1vh;
+	height: 9vh;
+	width: 9vh;
+	background-color: red;
+	display: inline-block;
 }
