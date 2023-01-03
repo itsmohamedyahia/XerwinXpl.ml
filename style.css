@@ -2,6 +2,11 @@ html {background-color: #191919;}
 p {color: #097786;}
 p[content*="C418"] {color: #f6364d}
 
+*::selection {
+	color: #999;
+	background-color: #0077D6;
+}
+
 /*sections*/
 #top {
 	position: fixed;
@@ -44,7 +49,7 @@ p[content*="C418"] {color: #f6364d}
 	vertical-align: middle;
 	display: table-cell;
 	font-family: "Verdana";
-	font-size: 9vw;
+	font-size: 9vh;
 }
 
 
@@ -61,6 +66,8 @@ img#album-f {
 }
 
 img#album-f:hover {
+	transition-duration: 0.5s;
+	transition-property: box-shadow;
 	box-shadow: 1vh 1vh 3vw 0 rgba(7, 188, 214, 1);
 }
 
@@ -71,7 +78,7 @@ img#album-f:hover {
 }
 
 #album-txt p {
-	font-size: 3vw;
+	font-size: 4vh;
 	font-family: Tahoma;
 }
 
@@ -101,14 +108,50 @@ img#album-f:hover {
 
 #releases {
 	height: 12vh;
-	display: flex;
-	justify-content: space-between;
+	display: block;
 }
 
 .release-icon {
-	margin: 1vh;
-	height: 9vh;
-	width: 9vh;
+	margin: 6.6vw;
+	margin-top: 0;
+	margin-bottom: 0;
+	height: 5.9vw;
+	width: 5.9vw;
 	background-color: red;
 	display: inline-block;
+}
+
+
+.ab {
+	width: 3vw;
+	height: 100vh;
+	position: absolute;
+	top: 0;
+	width: 6vw;
+	background-color: #363636;
+	transition-duration: 0.5s;
+	background-color: transparent;
+}
+
+.ab:hover {
+	transition-duration: 0.15s;
+	background-color: #363636;
+	width: 6vw;
+}
+
+#ab-l {left: 0;}
+#ab-r {right: 0;}
+
+
+
+#ab-l p {
+	text-align: center;
+	visibility: hidden;
+	color: transparent;
+}
+
+#ab-l:hover p {
+	transition-duration: 0.5s;
+	color: #097786;
+	visibility: visible;
 }
