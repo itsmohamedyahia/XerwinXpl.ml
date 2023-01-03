@@ -78,7 +78,7 @@ img#album-f:hover {
 }
 
 #album-txt p {
-	font-size: 4vh;
+	font-size: 32px;
 	font-family: Tahoma;
 }
 
@@ -144,14 +144,29 @@ img#album-f:hover {
 
 
 
-#ab-l p {
+.ab p {
 	text-align: center;
+	font-size: 2dvw;
 	visibility: hidden;
 	color: transparent;
 }
 
-#ab-l:hover p {
+.ab:hover p {
 	transition-duration: 0.5s;
 	color: #097786;
 	visibility: visible;
 }
+
+.ab .fa-brands {
+	visibility: hidden;
+	font-size: 5vw;
+}
+.ab:hover .fa-brands {
+	visibility: visible;
+}
+
+.fa-twitter {color: rgb(29, 155, 240);}
+.fa-mastodon {color: #8c8dff;}
+.fa-bandcamp {color: rgb(29, 160, 195);}
+.fa-youtube {color: #f00;}
+.fa-github {color: white;}
