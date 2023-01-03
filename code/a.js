@@ -9,8 +9,8 @@ h = document.querySelector("#h");
 function u_e() {console.log("a.js --> u_e --> exe");}
 function u_a() {console.log("a.js --> u_a --> exe");}
 function u_i() {console.log("a.js --> u_i --> exe");}
-function u_g() {console.log("a.js --> u_e --> exe");}
-function u_h() {console.log("a.js --> u_e --> exe");}
+function u_g() {console.log("a.js --> u_g --> exe");}
+function u_h() {console.log("a.js --> u_h --> exe");}
 
 e.addEventListener("click", u_e)
 a.addEventListener("click", u_a)
