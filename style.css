@@ -34,6 +34,7 @@ p[content*="C418"] {color: #f6364d}
 }
 
 #bottom {
+	overflow: hidden;
 	position: absolute;
 	left: 0;
 	bottom: 0;
@@ -62,7 +63,7 @@ p[content*="C418"] {color: #f6364d}
 img#album-f {
 	width: min(50vw, 50vh);
 	height: min(50vw, 50vh);
-	size: contain;
+	user-select: none;
 }
 
 img#album-f:hover {
@@ -78,7 +79,7 @@ img#album-f:hover {
 }
 
 #album-txt p {
-	font-size: 32px;
+	font-size: min(26px, 20dvh);
 	font-family: Tahoma;
 }
 
@@ -115,10 +116,14 @@ img#album-f:hover {
 	margin: 6.6vw;
 	margin-top: 0;
 	margin-bottom: 0;
+	/*background-color: red;*/
+	display: inline-block;
+}
+
+.release-icon img {
 	height: 5.9vw;
 	width: 5.9vw;
-	background-color: red;
-	display: inline-block;
+	overflow: auto;
 }
 
 
