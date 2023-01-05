@@ -61,15 +61,20 @@ p[content*="C418"] {color: #f6364d}
 }
 
 img#album-f {
+	transistion-delay: 0.5s;
+	transition-duration: 2.5s;
+	transition-property: box-shadow;
+	box-shadow: 0vh 0vh 0vw 0 rgb(214, 188, 7);
 	width: min(50vw, 50vh);
 	height: min(50vw, 50vh);
 	user-select: none;
 }
 
 img#album-f:hover {
+	transistion-delay: 0s;
 	transition-duration: 0.5s;
 	transition-property: box-shadow;
-	box-shadow: 1vh 1vh 3vw 0 rgba(7, 188, 214, 1);
+	box-shadow: 1vh 1vh 3vw 0 rgb(7, 188, 214);
 }
 
 #album-txt {
@@ -90,6 +95,7 @@ img#album-f:hover {
 }
 
 #tags .mtag {
+	user-select: none;
 	/*size of tag is "0.75*width/number_of_tags"*/
 	/*size of margin is "0.125*width/number_of_tags"*/
 	background-color: red;
@@ -120,32 +126,35 @@ img#album-f:hover {
 	display: inline-block;
 }
 
-.release-icon img {
+.release-icon a img {
 	height: 5.9vw;
 	width: 5.9vw;
 	overflow: auto;
 }
 
+.release-icon a img:hover {
+	transition-duration: 0.5s;
+	transition-property: box-shadow;
+	box-shadow: 1vh 1vh 3vw 0 rgb(7, 188, 214);
+}
+
+#ab-l {left: 0 !important;}
+#ab-r {right: 0 !important;}
 
 .ab {
-	width: 3vw;
+	transistion-delay: 0.5s;
+	width: 6vw; /*3vw dont work correctly*/
 	height: 100vh;
 	position: absolute;
 	top: 0;
-	width: 6vw;
-	background-color: #363636;
-	transition-duration: 0.5s;
 	background-color: transparent;
 }
 
 .ab:hover {
 	transition-duration: 0.15s;
 	background-color: #363636;
-	width: 6vw;
+	/*width: 6vw;*/
 }
-
-#ab-l {left: 0;}
-#ab-r {right: 0;}
 
 
 
@@ -157,6 +166,7 @@ img#album-f:hover {
 }
 
 .ab:hover p {
+	transition-delay: 0.1s;
 	transition-duration: 0.5s;
 	color: #097786;
 	visibility: visible;
@@ -169,6 +179,9 @@ img#album-f:hover {
 .ab:hover .fa-brands {
 	visibility: visible;
 }
+
+
+
 
 .fa-twitter {color: rgb(29, 155, 240);}
 .fa-mastodon {color: #8c8dff;}
