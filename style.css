@@ -135,7 +135,7 @@ img#album-f:hover {
 .release-icon a img:hover {
 	transition-duration: 0.5s;
 	transition-property: box-shadow;
-	box-shadow: 1vh 1vh 3vw 0 rgb(7, 188, 214);
+	box-shadow: 0 0 3vw 0 rgb(7, 188, 214);
 }
 
 #ab-l {left: 0 !important;}
