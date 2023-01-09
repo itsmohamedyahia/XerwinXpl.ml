@@ -35,7 +35,7 @@ p[content*="C418"] {color: #f6364d}
 
 #bottom {
 	overflow: hidden;
-	position: absolute;
+	position: fixed;
 	left: 0;
 	bottom: 0;
 	background: #242424;
