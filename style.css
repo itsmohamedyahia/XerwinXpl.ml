@@ -2,6 +2,23 @@ html {background-color: #191919;}
 p {color: #097786;}
 p[content*="C418"] {color: #f6364d}
 
+/*todo make screen with my nick that start being transparent 2 seconds after page loads*/
+
+#screenlongenter {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100vw;
+	height: 100vh;
+}
+
+/*
+	background-color: black;
+	visibility: visible;
+	background-color: transparent;
+	visibility: hidden;
+*/
+
 *::selection {
 	color: #999;
 	background-color: #0077D6;
