@@ -131,8 +131,11 @@ img#album-f:hover {
 }
 
 #releases {
-	height: 12vh;
-	display: block;
+    height: 12vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
 }
 
 .release-icon {
