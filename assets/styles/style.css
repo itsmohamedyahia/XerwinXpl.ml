@@ -24,18 +24,6 @@ p[content*="C418"] {color: #f6364d}
 	background-color: #0077D6;
 }
 
-/*sections*/
-#top {
-	position: fixed;
-	top: 0;
-	left: 0;
-	background: url("https://f4.bcbits.com/img/a3216786508_1.jpg");
-	background-size: 25%;
-	height: 16vh;
-	display: table;
-	width: 100%
-}
-
 #middle {
 	display: flex;
 	align-items: center;
@@ -50,28 +38,6 @@ p[content*="C418"] {color: #f6364d}
 	font-size: 250%;
 }
 
-#bottom {
-	overflow: hidden;
-	position: fixed;
-	left: 0;
-	bottom: 0;
-	background: #242424;
-	width: 100%
-}
-
-
-/*top*/
-#top p {
-	color: #62ec11;
-	text-align: center;
-	vertical-align: middle;
-	display: table-cell;
-	font-family: "Verdana";
-	font-size: 9vh;
-}
-
-
-/*middle*/
 #album-g {
 	width: min(50vw, 50vh);
 	margin: 0;
@@ -105,58 +71,6 @@ img#album-f:hover {
 	font-family: Tahoma;
 }
 
-
-/*bottom*/
-#tags {
-	height: 4vh;
-}
-
-#tags .mtag {
-	user-select: none;
-	/*size of tag is "0.75*width/number_of_tags"*/
-	/*size of margin is "0.125*width/number_of_tags"*/
-	background-color: red;
-	width: calc(75%/5);
-	margin: calc(11%/5); /*11 instead 12.5*/
-	margin-top: 0;
-	margin-bottom: 0;
-	display: inline-table;
-}
-
-#tags .mtag p {
-	text-align: center;
-	vertical-align: middle;
-	display: table-cell;
-	background-color: #393939;
-}
-
-#releases {
-    height: 12vh;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: row;
-}
-
-.release-icon {
-	margin: 6.6vw;
-	margin-top: 0;
-	margin-bottom: 0;
-	/*background-color: red;*/
-	display: inline-block;
-}
-
-.release-icon a img {
-	height: 5.3vw;
-	width: 5.3vw;
-	overflow: auto;
-}
-
-.release-icon a img:hover {
-	transition-duration: 0.5s;
-	transition-property: box-shadow;
-	box-shadow: 0 0 3vw 0 rgb(7, 188, 214);
-}
 
 #ab-l {left: 0 !important;}
 #ab-r {right: 0 !important;}
