@@ -66,9 +66,13 @@ img#album-f:hover {
 	margin-right: 5vh;
 }
 
-#album-txt p {
+.at-txt {
 	font-size: min(26px, 20dvh);
 	font-family: Tahoma;
+}
+
+.linkbetter {
+	text-decoration: none;
 }
 
 
