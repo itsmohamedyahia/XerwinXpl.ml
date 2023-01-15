@@ -58,3 +58,10 @@
 	transition-property: box-shadow;
 	box-shadow: 0 0 3vw 0 rgb(7, 188, 214);
 }
+
+#dcinvite {
+	display: none;
+	width: 100vw;
+	background-color: #090909;
+	bottom: 0;
+}
