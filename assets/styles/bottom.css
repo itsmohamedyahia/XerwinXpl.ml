@@ -1,0 +1,60 @@
+#bottom {
+	overflow: hidden;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	background: #242424;
+	width: 100%
+}
+
+#tags {
+	height: 4vh;
+}
+
+
+#tags .mtag {
+	user-select: none;
+	/*size of tag is "0.75*width/number_of_tags"*/
+	/*size of margin is "0.125*width/number_of_tags"*/
+	background-color: red;
+	width: calc(75%/5);
+	margin: calc(11%/5); /*11 instead 12.5*/
+	margin-top: 0;
+	margin-bottom: 0;
+	display: inline-table;
+}
+
+#tags .mtag p {
+	text-align: center;
+	vertical-align: middle;
+	display: table-cell;
+	background-color: #393939;
+}
+
+#releases {
+    height: 12vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+.release-icon {
+	margin: 6.6vw;
+	margin-top: 0;
+	margin-bottom: 0;
+	/*background-color: red;*/
+	display: inline-block;
+}
+
+.release-icon a img {
+	height: 5.3vw;
+	width: 5.3vw;
+	overflow: auto;
+}
+
+.release-icon a img:hover {
+	transition-duration: 0.5s;
+	transition-property: box-shadow;
+	box-shadow: 0 0 3vw 0 rgb(7, 188, 214);
+}
