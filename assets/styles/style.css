@@ -126,3 +126,8 @@ img#album-f:hover {
 .fa-bandcamp {color: rgb(29, 160, 195);}
 .fa-youtube {color: #f00;}
 .fa-github {color: white;}
+
+#album-s {
+    box-shadow: 12px 12px 20px 0px black;
+}
+
