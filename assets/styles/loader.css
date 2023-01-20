@@ -6,6 +6,7 @@
 	width: 100vw;
 	height: 100vh;
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
 }
@@ -18,5 +19,6 @@
 }
 
 #txl {
-	font-size: 3vh;
+	font-size: 3vh !important;
+	transform: translateX(0) translateY(-25vh);
 }
