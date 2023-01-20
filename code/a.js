@@ -21,11 +21,11 @@ h_electronica = [0, 1, 2, 3, 4, 5, 6, 7];
 
 function get_imgs() {
 	imgs = [
-	document.querySelector("#ri0 a img"),
-	document.querySelector("#ri1 a img"),
-	document.querySelector("#ri2 a img"),
-	document.querySelector("#ri3 a img"),
-	document.querySelector("#ri4 a img")];
+	document.querySelector("#ri0 a"),
+	document.querySelector("#ri1 a"),
+	document.querySelector("#ri2 a"),
+	document.querySelector("#ri3 a"),
+	document.querySelector("#ri4 a")];
 }
 
 function get_tag(r) {
