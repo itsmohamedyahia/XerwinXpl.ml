@@ -5,4 +5,18 @@
 	top: 0;
 	width: 100vw;
 	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#loader-page p {
+	text-align: center;
+	color: white;
+	font-size: 10vh;
+	margin: 0;
+}
+
+#txl {
+	font-size: 3vh;
 }
