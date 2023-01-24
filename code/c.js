@@ -3,7 +3,7 @@ console.log("c.js --> loaded");
 const lp = document.createElement("div");
 const tx = document.createElement("p");
 const txl = document.createElement("p");
-lp.class = "tz";
+lp.classList.add('tz');
 lp.id = "loader-page";
 txl.id = "txl";
 tx.innerText = "welcome to XerwinXpl website!";
@@ -19,4 +19,4 @@ function timed_a() {
     lp.remove();
 }
 
-setTimeout(timed_a, 2000);
+setTimeout(timed_a, 20000);
