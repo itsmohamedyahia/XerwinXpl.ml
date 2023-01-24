@@ -134,3 +134,6 @@ img#album-f:hover {
 	box-shadow: 12px 12px 20px 0px black;
 }
 
+.tz {
+	transform: translateZ(10px);
+}
