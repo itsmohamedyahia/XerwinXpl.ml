@@ -19,4 +19,4 @@ function timed_a() {
     lp.remove();
 }
 
-setTimeout(timed_a, 20000);
+setTimeout(timed_a, 2000);
