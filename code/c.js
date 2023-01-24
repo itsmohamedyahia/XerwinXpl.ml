@@ -3,6 +3,7 @@ console.log("c.js --> loaded");
 const lp = document.createElement("div");
 const tx = document.createElement("p");
 const txl = document.createElement("p");
+lp.class = "tz";
 lp.id = "loader-page";
 txl.id = "txl";
 tx.innerText = "welcome to XerwinXpl website!";
