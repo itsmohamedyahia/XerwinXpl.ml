@@ -1,0 +1,3 @@
+a --> bottom div buttons
+b --> header parallax
+c --> loading page
