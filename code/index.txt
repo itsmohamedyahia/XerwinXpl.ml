@@ -2,4 +2,3 @@ a --> bottom div buttons
 b --> header parallax
 c --> loading page
 d --> loading header, side pannels and bottom bar
-e --> load base html head
