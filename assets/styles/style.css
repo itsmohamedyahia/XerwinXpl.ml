@@ -134,3 +134,16 @@ img#album-f:hover {
 	box-shadow: 12px 12px 20px 0px black;
 }
 
+.ab-l > a {
+	text-align: center;
+	font-size: 0.75dvw;
+	visibility: hidden;
+	color: transparent;
+}
+
+.ab-l:hover a {
+	transition-delay: 0.1s;
+	transition-duration: 0.5s;
+	color: #097786;
+	visibility: visible;
+}
