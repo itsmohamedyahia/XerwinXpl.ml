@@ -22,7 +22,7 @@ d_data = `
 		</div>
 		<div class="ab" id="ab-l">
 			<p>other articles</p>
-			<a href="https://www.xerwinxpl.ml/art/2023/sanctuary.html">Sanctuary collab</>
+			<a href="https://www.xerwinxpl.ml/art/2023/sanctuary.html"><p>Sanctuary collab</p></>
 		</div>
 		<div class="ab" id="ab-r">
 			<p>socials</p>
