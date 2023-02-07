@@ -1,6 +1,7 @@
 html {background-color: #191919;}
 p {color: #097786;}
 p[content*="C418"] {color: #f6364d}
+a {text-decoration: none;}
 
 /*todo make screen with my nick that start being transparent 2 seconds after page loads*/
 
@@ -96,14 +97,17 @@ img#album-f:hover {
 
 
 
-.ab p {
+.ab > p, .ab > a > p {
 	text-align: center;
-	font-size: 2dvw;
 	visibility: hidden;
 	color: transparent;
 }
 
-.ab:hover p {
+.ab > p {
+	font-size: 2dvw;
+}
+
+.ab:hover > p, .ab:hover > a > p {
 	transition-delay: 0.1s;
 	transition-duration: 0.5s;
 	color: #097786;
@@ -134,16 +138,16 @@ img#album-f:hover {
 	box-shadow: 12px 12px 20px 0px black;
 }
 
-.ab-l > a {
+.ab-l > a > p {
 	text-align: center;
-	font-size: 0.75dvw;
+	font-size: 0.75dvw !important;
+	color: #097786;
 	visibility: hidden;
 	color: transparent;
 }
 
-.ab-l:hover a {
+.ab-l:hover a > p {
 	transition-delay: 0.1s;
 	transition-duration: 0.5s;
-	color: #097786;
 	visibility: visible;
 }
