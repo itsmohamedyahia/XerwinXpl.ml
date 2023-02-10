@@ -35,6 +35,7 @@ d_data_d = `
 			<a href="https://xerwinxpl.bandcamp.com"><i class="fa-brands fa-bandcamp"></i></a>
 			<a href="https://www.youtube.com/@xerwinxpl"><i class="fa-brands fa-youtube"></i></a>
 			<a href="https://github.com/e15dev"><i class="fa-brands fa-github"></i></a>
+			<a href="https://www.discord.com/invite/rWNxcGuK9R"><i class="fa-brands fa-discord"></i></a>
 		</div>
 `
 
