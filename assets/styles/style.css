@@ -128,7 +128,8 @@ img#album-f:hover {
 .fa-bandcamp {color: rgb(29, 160, 195);}
 .fa-youtube {color: #f00;}
 .fa-github {color: white;}
-.fa-discord {color: #7289d9}
+.fa-discord {color: #7289d9;
+.fa-spotify {color: #1DB954;
 
 #album-s {
 	margin-bottom: 1.5vh;
