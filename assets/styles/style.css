@@ -116,13 +116,11 @@ img#album-f:hover {
 
 .ab .fa-brands {
 	visibility: hidden;
-	font-size: 5vw;
+	font-size: 4vw;
 }
 .ab:hover .fa-brands {
 	visibility: visible;
 }
-
-
 
 
 .fa-twitter {color: rgb(29, 155, 240);}
@@ -130,6 +128,7 @@ img#album-f:hover {
 .fa-bandcamp {color: rgb(29, 160, 195);}
 .fa-youtube {color: #f00;}
 .fa-github {color: white;}
+.fa-discord {color: #7289d9}
 
 #album-s {
 	margin-bottom: 1.5vh;
