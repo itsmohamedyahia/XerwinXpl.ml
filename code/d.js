@@ -36,6 +36,7 @@ d_data_d = `
 			<a href="https://www.youtube.com/@xerwinxpl"><i class="fa-brands fa-youtube"></i></a>
 			<a href="https://github.com/e15dev"><i class="fa-brands fa-github"></i></a>
 			<a href="https://www.discord.com/invite/rWNxcGuK9R"><i class="fa-brands fa-discord"></i></a>
+			<a href="https://open.spotify.com/artist/6NPnDmYFF55JxRTFot2GIn"><i class="fa-brands fa-spotify"></i></a>
 		</div>
 `
 
