@@ -117,6 +117,8 @@ img#album-f:hover {
 .ab .fa-brands {
 	visibility: hidden;
 	font-size: 4vw;
+	width: 100%;
+	text-align: center;
 }
 .ab:hover .fa-brands {
 	visibility: visible;
