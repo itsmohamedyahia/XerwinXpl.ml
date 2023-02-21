@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
 html {background-color: #191919;}
 p {color: #097786;}
 p[content*="C418"] {color: #f6364d}
@@ -152,4 +154,8 @@ img#album-f:hover {
 	transition-delay: 0.1s;
 	transition-duration: 0.5s;
 	visibility: visible;
+}
+
+.pixelated {
+	font-family: 'Silkscreen', cursive;;	
 }
