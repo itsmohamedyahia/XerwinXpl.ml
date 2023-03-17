@@ -30,8 +30,8 @@ d_div_bottom.innerHTML = `
 
 d_div_abl.innerHTML = `
 	<p>other articles</p>
-	<a href="https://www.xerwinxpl.ml/art/2023/sanctuary.html"><p>Sanctuary collab</p></>
-	<a href="https://www.xerwinxpl.ml/art/2023/2weeks.html"><p>2 Weeks</p></>
+	<a href="https://www.xerwinxpl.ml/art/2023/sanctuary.html"><p>Sanctuary collab</p></a>
+	<a href="https://www.xerwinxpl.ml/art/2023/2weeks.html"><p>2 Weeks</p></a>
 `
 
 d_div_abr.innerHTML = `
