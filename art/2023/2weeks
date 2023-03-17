@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="stylesheet" href="https://www.XerwinXpl.ml/assets/styles/style.css">
+		<link rel="stylesheet" href="https://www.XerwinXpl.ml/assets/styles/header.css">
+		<link rel="stylesheet" href="https://www.XerwinXpl.ml/assets/styles/bottom.css">
+		<script src="https://kit.fontawesome.com/eb4a2b5037.js" crossorigin="anonymous"></script>
+		<meta content="XerwinXpl - 2 weeks" property="og:title" />
+		<meta content="XerwinXpl website, pls listen to my music" property="og:description" />
+		<meta content="https://www.XerwinXpl.ml/art/2023/2weeks.html" property="og:url" />
+		<meta content="https://www.XerwinXpl.ml/assets/images/512/2weeks.jpg" property="og:image" />
+		<meta content="#097786" data-react-helmet="true" name="theme-color" />
+		<title>XerwinXpl music</title>
+		<meta name="description" content="welcome, this is XerwinXpl website, please listen to my music lol."/>
+		<meta name="robots" content="index, nofollow">
+		<meta name="keywords" content="XerwinXpl, music, electronica" />
+	</head>
+	<body>
+		<script type="text/javascript" src="https://www.XerwinXpl.ml/code/c.js"></script>
+		<div id="middle">
+			<div id="album-g">
+				<a href="https://xerwinxpl.bandcamp.com/album/2-weeks"><div id="album-s"><img id="album-f" src="https://f4.bcbits.com/img/a1300888331_1.jpg" alt="2 weeks"></div></a>
+				<iframe style="border: 0; width: min(50vw, 50vh); height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=2312866412/size=small/bgcol=333333/linkcol=0f91ff/artwork=none/transparent=true/" seamless><a href="https://xerwinxpl.bandcamp.com/album/2-weeks">2 weeks by XerwinXpl</a></iframe>
+			</div>		
+			<div id="album-txt">
+				<p class="at-txt">This is EP i made in 2 weeks while i had discussion channel on C418 discord guild. Album have total lenght of 1363 seconds, so 22 minutes and 43 seconds (maybe its not EP lol). Almost every track have different genre, because i was creating everything that came to my mind.</p>
+				<p class="at-txt">If you want to hear stuff i may never release, or music before i post it more public (bandcamp/youtube), im posting it on my discord server.</p>
+			</div>
+		</div>
+		<div id="top">
+			<p class="p_layer">XerwinXpl</p>
+		</div>
+
+		<script type="text/javascript" src="./code/d.js"></script>
+		<script type="text/javascript" src="./code/a.js"></script>
+		<script type="text/javascript" src="./code/b.js"></script>
+	</body>
+</html>
