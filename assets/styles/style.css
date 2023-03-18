@@ -116,7 +116,7 @@ img#album-f:hover {
 	visibility: visible;
 }
 
-.ab > .fa-brands {
+.ab .fa-brands {
 	visibility: hidden;
 	font-size: 4vw;
 	width: 100%;
