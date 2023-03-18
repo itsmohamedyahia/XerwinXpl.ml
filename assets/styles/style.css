@@ -122,7 +122,7 @@ img#album-f:hover {
 	width: 100%;
 	text-align: center;
 }
-.ab:hover > .fa-brands {
+.ab:hover .fa-brands {
 	visibility: visible;
 }
 
