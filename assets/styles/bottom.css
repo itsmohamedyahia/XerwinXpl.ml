@@ -9,7 +9,7 @@
 
 #tags {
 	display: flex;
-	height: 4vh;
+	justify-content: space-around;
 	height: 4vh;
 }
 
