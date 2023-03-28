@@ -16,7 +16,7 @@
 
 #tags .mtag {
 	user-select: none;
-	/*size of tag is "0.75*width/number_of_tags
+	/*size of tag is "0.75*width/number_of_tags*/
 	background-color: transparent;
 	width: calc(75%/5);
 	margin-top: 0;
