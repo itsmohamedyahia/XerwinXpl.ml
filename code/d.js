@@ -13,7 +13,7 @@ d_div_bottom.innerHTML = `
 	<div id="tags">
 		<div class="mtag" id="e"><p>electronica</p></div>
 		<div class="mtag" id="a"><p>ambient</p></div>
-		<div class="mtag" id="i"><p>hip hop</p></div>
+		<div class="mtag" id="i"><p>hip hop (not really)</p></div>
 		<div class="mtag" id="g"><p>glitch</p></div>
 		<div class="mtag" id="h"><p>house</p></div>
 	</div>
