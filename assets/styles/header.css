@@ -16,4 +16,5 @@
 	display: table-cell;
 	font-family: "Verdana";
 	font-size: 9vh;
+	user-select: none;
 }
