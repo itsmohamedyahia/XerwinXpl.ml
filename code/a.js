@@ -61,9 +61,9 @@ imgs[4].outerHTML = get_tag(glitch[0]);}
 function u_h() {get_imgs(); console.log("a.js --> u_h --> clicked");
 imgs[0].outerHTML = get_tag(house[0]);
 imgs[1].outerHTML = get_tag(house[4]);
-imgs[2].outerHTML = get_tag(house[10]);
+imgs[2].outerHTML = get_tag(house[7]);
 imgs[3].outerHTML = get_tag(house[5]);
-imgs[4].outerHTML = get_tag(house[9]);}
+imgs[4].outerHTML = get_tag(house[6]);}
 
 
 //listeners
