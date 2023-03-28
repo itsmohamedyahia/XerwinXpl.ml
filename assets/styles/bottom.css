@@ -8,6 +8,8 @@
 }
 
 #tags {
+	display: flex;
+	height: 4vh;
 	height: 4vh;
 }
 
@@ -18,7 +20,6 @@
 	/*size of margin is "0.125*width/number_of_tags"*/
 	background-color: transparent;
 	width: calc(75%/5);
-	margin: calc(11%/5); /*11 instead 12.5*/
 	margin-top: 0;
 	margin-bottom: 0;
 	display: inline-table;
