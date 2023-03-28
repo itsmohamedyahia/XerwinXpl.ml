@@ -11,14 +11,14 @@ const r_tw = ["xerwinxpl", "album/2-weeks/", "https://f4.bcbits.com/img/a1300888
 const r_tiwnh = ["xerwinxpl", "track/things-i-will-never-have/", "https://f4.bcbits.com/img/a3412206100_2.jpg"];	// ambient, electronica
 const r_na = ["xerwinxpl", "track/not-acid/", "https://f4.bcbits.com/img/a0933733175_2.jpg"];				// hip-hop, house, electronica
 const r_sanctuary = ["jcran", "/track/sanctuary", "https://f4.bcbits.com/img/a3801538135_2.jpg"]			// electronica, ambient
+const r_moments = ["xerwinxpl", "/album/moments/", "https://f4.bcbits.com/img/a1127497836_2.jpg"]			// electronica, house, ambient, glitch
+const r_delta = ["xerwinxpl", "track/delta", "https://f4.bcbits.com/img/a1790645310_2.jpg"]				// electronica, house
 
-electronica = [r_hex, r_new, r_think, r_piano, r_s, r_tw, r_tiwnh, r_na, r_sanctuary];
-ambient = [r_aqua, r_new, r_think, r_tw, r_tiwnh, r_sanctuary];
+electronica = [r_hex, r_new, r_think, r_piano, r_s, r_tw, r_tiwnh, r_na, r_sanctuary, r_moments, r_delta];
+ambient = [r_aqua, r_new, r_think, r_tw, r_tiwnh, r_sanctuary, r_moments];
 hh = [r_new, r_na, r_tw];
-glitch = [r_03, r_tw];
-house = [r_03, r_new, r_think, r_s, r_tw, r_na];
-
-h_electronica = [0, 1, 2, 3, 4, 5, 6, 7, 8]; // what this do lol, i dont remember
+glitch = [r_03, r_tw, r_moments];
+house = [r_03, r_new, r_think, r_s, r_tw, r_na, r_moments, r_delta];
 
 function get_imgs() {
 	imgs = [
@@ -35,11 +35,11 @@ function get_tag(r) {
 
 //updating images [41203]
 function u_e() {get_imgs(); console.log("a.js --> u_e --> clicked");
-imgs[0].outerHTML = get_tag(electronica[2]);
+imgs[0].outerHTML = get_tag(electronica[8]);
 imgs[1].outerHTML = get_tag(electronica[5]);
-imgs[2].outerHTML = get_tag(electronica[8]);
+imgs[2].outerHTML = get_tag(electronica[10]);
 imgs[3].outerHTML = get_tag(electronica[6]);
-imgs[4].outerHTML = get_tag(electronica[1]);}
+imgs[4].outerHTML = get_tag(electronica[9]);}
 function u_a() {get_imgs(); console.log("a.js --> u_a --> clicked");
 imgs[0].outerHTML = get_tag(ambient[5]);
 imgs[1].outerHTML = get_tag(ambient[4]);
@@ -61,9 +61,9 @@ imgs[4].outerHTML = get_tag(glitch[0]);}
 function u_h() {get_imgs(); console.log("a.js --> u_h --> clicked");
 imgs[0].outerHTML = get_tag(house[0]);
 imgs[1].outerHTML = get_tag(house[4]);
-imgs[2].outerHTML = get_tag(house[2]);
+imgs[2].outerHTML = get_tag(house[10]);
 imgs[3].outerHTML = get_tag(house[5]);
-imgs[4].outerHTML = get_tag(house[3]);}
+imgs[4].outerHTML = get_tag(house[9]);}
 
 
 //listeners
