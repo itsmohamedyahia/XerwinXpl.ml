@@ -1,3 +1,11 @@
+.animation {
+  animation-timing-function: ease-out;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+}
+
+/*----------------animations----------------*/
+
 @keyframes slideInFromLeft {
   0% { transform: translateX(-100%); } 100% { transform: translateX(0); }
 }
@@ -6,10 +14,12 @@
   0% { transform: translateX(100%); } 100% { transform: translateX(0); }
 }
 
-.slideLeft {
-  animation: 5s ease-out 0s 1 slideInFromLeft;
-}
+/*----------------classes----------------*/
 
-.slideRight {
-  animation: 5s ease-out 0s 1 slideInFromRight;
-}
+.slideLeft { animation-name: slideInFromLeft; }
+.slideRight { animation-name: slideInFromRight; }
+
+/*----------------timings----------------*/
+.t1 { animation-duration: 1s; }
+.t2 { animation-duration: 2s; }
+.t5 { animation-duration: 5s; }
