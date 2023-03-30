@@ -1,0 +1,12 @@
+html {
+  background-color: #191919;
+}
+
+p {
+  color: #097786;
+}
+
+*::selection {
+	color: #999;
+	background-color: #0077D6;
+}
