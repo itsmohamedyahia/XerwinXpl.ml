@@ -2,7 +2,7 @@ html {
   background-color: #191919;
 }
 
-p {
+a, p {
   color: #097786;
   text-decoration: none;
 }
