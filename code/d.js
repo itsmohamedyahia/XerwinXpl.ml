@@ -33,6 +33,7 @@ d_div_abl.innerHTML = `
 	<a href="/art/2023/sanctuary.html"><p>Sanctuary collab</p></a>
 	<a href="/art/2023/2weeks.html"><p>2 Weeks (album)</p></a>
 	<a href="/art/2023/moments.html"><p>moments (album)</p></a>
+	<a href="/art/2023/delta.html"><p>delta (track)</p></a>
 `
 
 d_div_abr.innerHTML = `
