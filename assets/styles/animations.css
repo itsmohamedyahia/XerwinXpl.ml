@@ -35,6 +35,7 @@
 .t5 { animation-duration: 5s; }
 
 /*----------------delays----------------*/
+.dr { animation-delay: 128s; } /*dr class is defined by e.js, delay is set so high so js have time to set it before it start playing*/
 .d1 { animation-delay: 1s; }
 .d2 { animation-delay: 2s; }
 .d5 { animation-delay: 5s; }
