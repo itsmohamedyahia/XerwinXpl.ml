@@ -14,7 +14,7 @@
   0% { transform: translateX(100vw); } 100% { transform: translateX(0); }
 }
 
-@keyframes slideInFromUp {
+@keyframes slideInFromTop {
   0% { transform: translateY(-100vh); } 100% { transform: translateY(0); }
 }
 
@@ -26,7 +26,7 @@
 
 .slideLeft { animation-name: slideInFromLeft; }
 .slideRight { animation-name: slideInFromRight; }
-.slideUp { animation-name: slideInFromUp; }
+.slideTop { animation-name: slideInFromTop; }
 .slideDown { animation-name: slideInFromDown; }
 
 /*----------------timings----------------*/
