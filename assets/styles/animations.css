@@ -33,3 +33,8 @@
 .t1 { animation-duration: 1s; }
 .t2 { animation-duration: 2s; }
 .t5 { animation-duration: 5s; }
+
+/*----------------delays----------------*/
+.d1 { animation-delay: 1s; }
+.d2 { animation-delay: 2s; }
+.d5 { animation-delay: 5s; }
