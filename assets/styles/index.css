@@ -22,7 +22,7 @@ body {
 }
 
 #pg {
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px) grayscale(50%);
   border: solid 2px #097786;
   width: 40vw;
   height: 50vh;
