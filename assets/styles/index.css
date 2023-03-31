@@ -9,8 +9,8 @@ a, p {
 }
 
 *::selection {
-	color: #999;
-	background-color: #0077D6;
+  color: #999;
+  background-color: #0077D6;
 }
 
 body {
