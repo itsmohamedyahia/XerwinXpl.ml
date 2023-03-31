@@ -1,6 +1,5 @@
 html {
-  /*background-color: #191919;*/
-  background: url("https://f4.bcbits.com/img/a1300888331_10.jpg");
+  background-color: #191919;
 }
 
 a, p {
@@ -15,6 +14,7 @@ a, p {
 }
 
 body {
+  background: url("https://f4.bcbits.com/img/a1300888331_10.jpg");
   display: flex;
   align-items: center;
   justify-content: center;
