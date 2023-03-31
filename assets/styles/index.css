@@ -8,6 +8,7 @@ a, p {
   color: #097786;
   font-width: 2vh;
   text-decoration: none;
+  font-size: 150%;
 }
 
 *::selection {
