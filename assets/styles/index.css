@@ -24,6 +24,7 @@ body {
   width: 40vw;
   height: 50vh;
   display: grid; /*this is so items are not in one line*/
+  grid-auto-rows: min-content;
 }
 
 #pg a {
