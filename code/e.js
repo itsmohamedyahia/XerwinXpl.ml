@@ -17,5 +17,5 @@ for (let i = 0; i < dr.length; i++) {
 }
 
 randomBgEls.forEach((el) => {
-  el.style.setProperty('--random-bg-color', getRandomColor());
+  el.style.setProperty('background-color', getRandomColor());
 });
