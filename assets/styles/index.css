@@ -18,6 +18,7 @@ body {
   justify-content: center;
 }
 
-.pg {
+#pg {
   border: 1px #097786;
+  display: grid; /*this is so items are not in one line*/
 }
