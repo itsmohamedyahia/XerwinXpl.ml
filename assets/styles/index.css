@@ -24,8 +24,8 @@ body {
 #pg {
   backdrop-filter: blur(10px) grayscale(50%);
   border: solid 2px #097786;
-  width: 40vw;
-  height: 50vh;
+  width: 25em;
+  height: 15em;
   display: grid; /*this is so items are not in one line*/
   grid-auto-rows: min-content;
 }
