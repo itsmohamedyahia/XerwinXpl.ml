@@ -11,6 +11,10 @@ a, p {
   font-size: 150%;
 }
 
+#ud {
+  color: #098677;
+}
+
 *::selection {
   color: #999;
   background-color: #0077D6;
