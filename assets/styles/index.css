@@ -14,7 +14,12 @@ a, p {
 }
 
 body {
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
   background: url("https://f4.bcbits.com/img/a1300888331_10.jpg") no-repeat fixed center;
+  background-size: cover;
   display: flex;
   align-items: center;
   justify-content: center;
