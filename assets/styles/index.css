@@ -11,3 +11,13 @@ a, p {
 	color: #999;
 	background-color: #0077D6;
 }
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pg {
+  border: 1px #999;
+}
